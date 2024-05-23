@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "492435527776",
+    "project_id": "sampahemas-381bb",
+    "storage_bucket": "sampahemas-381bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492435527776:android:17873d7b6fb92e1a4bcb05",
+        "android_client_info": {
+          "package_name": "com.example.sampah_emas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkrOvMSIFG_dbCWUzI8_cUU0Fj5z2lbxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
