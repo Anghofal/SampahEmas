@@ -18,7 +18,7 @@ main() async {
       '/': (context) => const SplashPage(),
       '/login': (context) => LoginPage(),
       /*'/register': (context) => const RegisterPage(),
-      /*'/dashboard': (context) => const DashboardPage(),
+      '/dashboard': (context) => const DashboardPage(),*/
     },
   ));
 }
