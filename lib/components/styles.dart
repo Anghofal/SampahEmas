@@ -9,7 +9,7 @@ var greenColor = const Color(0xff5B9279);
 //Lighter Green
 var lightgreenColor = const Color(0xff8FCB9B);
 // Darker Blue
-var darkblue = const Color(0xff022B3A);
+var darkblueColor = const Color(0xff022B3A);
 
 var warningColor = const Color(0xFFE9C46A);
 var dangerColor = const Color(0xFFE76F51);

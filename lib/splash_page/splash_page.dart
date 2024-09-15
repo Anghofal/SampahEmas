@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:sampah_emas/components/styles.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -42,8 +43,8 @@ void initState() {
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarColor: Color(0xFF353D2F),
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: darkgreenColor,
     ));
 
 

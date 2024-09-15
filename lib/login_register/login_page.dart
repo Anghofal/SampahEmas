@@ -54,7 +54,7 @@ class LoginPageState extends State<LoginPage> {
     final double topPadding = screenSize.height * 0.2;
     
     return Scaffold(
-      backgroundColor: const Color(0xFF353D2F),
+      backgroundColor: darkgreenColor,
       body: SafeArea(
         child: _isLoading
             ? const Center(
@@ -77,7 +77,7 @@ class LoginPageState extends State<LoginPage> {
                 )
               ),
                 Container(
-                  margin: EdgeInsets.symmetric(horizontal: 30),
+                  margin: const EdgeInsets.symmetric(horizontal: 30),
                   child: Form(
                       key: _formKey,
                       child: Column(
@@ -105,7 +105,7 @@ class LoginPageState extends State<LoginPage> {
                                 obscureText: true,
                                 decoration: customInputDecoration("....."))),
                             Container(
-                            margin: EdgeInsets.only(top: 20),
+                            margin: const EdgeInsets.only(top: 20),
                             width: double.infinity,
                             child: FilledButton(
                               style: buttonStyle,

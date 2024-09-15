@@ -30,10 +30,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dropdown_search: ^5.0.2
+  flutter_custom_clippers: ^2.1.0
+  carousel_slider: ^4.0.0
+  auto_size_text: ^3.0.0
+  camera: ^0.10.5+9
+  image: ^3.0.1
+  image_picker: ^1.0.8
   firebase_core: ^2.22.0
-  firebase_auth: ^4.15.2
-  cloud_firestore: ^4.13.5
+  firebase_auth: ^4.4.0
+  cloud_firestore: ^4.14.0
   firebase_storage: ^11.5.5
+  
 
 
   # The following adds the Cupertino Icons font to your application.
